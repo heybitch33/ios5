@@ -25,9 +25,17 @@ extension TextView {
   private func setup() {
     //setup view
     backgroundColor = .gray
-    textfield.text = "asmndvbasldhvblasdbhvlasdbvlsdbv"
-    textfield.frame = CGRect(x: 50, y: 50, width: 100, height: 100)
+    textfield.text = "Hello, Moto"
+    textfield.contentMode = .scaleToFill
+    //textfield.font = .systemFont(ofSize: 14)
+    textfield.backgroundColor = .white
+    
     addSubview(textfield)
     
+    textfield.translatesAutoresizingMaskIntoConstraints = false
+    textfield.widthAnchor.constraint(equalTo: widthAnchor, constant: -2 ).isActive = true
+    textfield.heightAnchor.constraint(equalTo: heightAnchor, constant: -2).isActive = true
+    textfield.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+    textfield.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
   }
 }
