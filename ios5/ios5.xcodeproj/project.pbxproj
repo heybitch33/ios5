@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B3E4ABA275CC8AA00888565 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3E4AB9275CC8AA00888565 /* ButtonView.swift */; };
+		C016C2A2275CE06000EE2717 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C016C2A1275CE06000EE2717 /* TextView.swift */; };
 		C3715CC4275CCD5F008F7652 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3715CC3275CCD5F008F7652 /* MyViewController.swift */; };
 		C77073B2275CBA05006122D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77073B1275CBA05006122D3 /* AppDelegate.swift */; };
 		C77073B6275CBA05006122D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77073B5275CBA05006122D3 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		1B3E4AB9275CC8AA00888565 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		C016C2A1275CE06000EE2717 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		C3715CC3275CCD5F008F7652 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		C77073AE275CBA05006122D3 /* ios5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77073B1275CBA05006122D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C77073B1275CBA05006122D3 /* AppDelegate.swift */,
 				C77073B5275CBA05006122D3 /* ViewController.swift */,
 				1B3E4AB9275CC8AA00888565 /* ButtonView.swift */,
+				C016C2A1275CE06000EE2717 /* TextView.swift */,
 				C77073BA275CBA08006122D3 /* Assets.xcassets */,
 				C77073BC275CBA08006122D3 /* LaunchScreen.storyboard */,
 				C77073BF275CBA08006122D3 /* Info.plist */,
@@ -141,6 +144,7 @@
 				C3715CC4275CCD5F008F7652 /* MyViewController.swift in Sources */,
 				C77073B2275CBA05006122D3 /* AppDelegate.swift in Sources */,
 				1B3E4ABA275CC8AA00888565 /* ButtonView.swift in Sources */,
+				C016C2A2275CE06000EE2717 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
