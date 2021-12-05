@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  ios5
 //
-//  Created by Ivan Yavtushenko on 05.12.2021.
+//  Created by Vegan Veganovich on 05.12.2021.
 //
 
 import UIKit
