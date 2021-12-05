@@ -14,6 +14,7 @@ class TextView: UIView {
 extension TextView {
   
   private func setup() {
+    //setup view
     
   }
 }
