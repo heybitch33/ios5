@@ -39,7 +39,7 @@ extension ButtonView {
         button.setTitle("Button", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.layer.backgroundColor = UIColor.cyan.cgColor
-        button.layer.cornerRadius = 10
+        button.layer.cornerRadius = 15
         addSubview(button)
     }
     
